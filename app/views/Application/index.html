@@ -1,0 +1,21 @@
+#{extends 'main.html' /}
+
+
+<h2>プラレール</h2>
+ <section class="container">
+    <!-- Bootstrapのグリッドシステムclass="row"で開始 -->
+    <div class="row">
+      <!-- グリッドシステムとは：合計12分割 -->
+      <div class="col-sm-4" style="">
+		<p style="font-size: 150.5%;">現在のスピード</p>
+		<p id="speed" style="font-size: 400.5%; margin-left: 30px;"></p>
+		<p style="font-size: 150.5%;">通過駅</p>
+		<p id="place" style="font-size: 400.5%; margin-left: 30px;"></p>
+      </div>
+      <div class="col-sm-8" style="">
+      	<div id='esense_chart'></div>
+      	<div id='raw_chart'></div>
+
+      </div>
+    </div>
+  </section>
